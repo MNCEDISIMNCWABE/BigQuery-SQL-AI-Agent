@@ -26,12 +26,7 @@ Clone this repository:
 
 #### Set up your Google Cloud credentials
 - Place the service account in the project directory: ```os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "path/to/your/credentials.json"```
-- Configure BQ Porject and dataset
-``
-BQ_PROJECT = "your-project-id"
-BQ_DATASET = "your-dataset-name"   
-LOCATION = "your-region"  # e.g., "us-central1"
-``
+
 #### Other Key Configurations
 ```
 llm = ChatVertexAI(
