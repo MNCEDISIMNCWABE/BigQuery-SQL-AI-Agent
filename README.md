@@ -1,6 +1,6 @@
 # BigQuery SQL AI Agent Powered by LangGraph
 
-This repo demonstrates how to leverage LangGraph to build a conversational AI agent that helps users query BigQuery databases using natural language, with built-in validation, execution, and self-correction capabilities. This AI Agent takes natural language queries and convert them to SQL queries.
+This repo demonstrates how to leverage LangGraph to build a conversational AI agent that helps users query BigQuery databases using natural language, with SQL validation, execution, and self-correction capabilities. This AI Agent takes natural language queries and convert them to SQL queries.
 
 ![image](https://github.com/user-attachments/assets/f7af3c99-912f-4630-a13e-205c8e5806fc)
 
