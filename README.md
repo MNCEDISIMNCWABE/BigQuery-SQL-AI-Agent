@@ -42,4 +42,12 @@ BQ_DATASET = "your-dataset-name"
 LOCATION = "your-bq-region"
 ```
 
+#### Run it
+``streamlit run app.py``
+
+Once launched, simply enter the your query like:
+
+<img width="996" alt="image" src="https://github.com/user-attachments/assets/19995b63-20d5-4099-906a-fbe95791664b" />
+
+
 
