@@ -39,7 +39,7 @@ llm = ChatVertexAI(
 
 BQ_PROJECT = "your-project-id"         
 BQ_DATASET = "your-dataset-name"       
-LOCATION = "us-central1"
+LOCATION = "your-bq-region"
 ```
 
 
