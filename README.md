@@ -22,5 +22,29 @@ This repo demonstrates how to leverage LangGraph to build a conversational AI ag
 Clone this repository:
 - ``git clone https://github.com/MNCEDISIMNCWABE/BigQuery-SQL-AI-Agent.git``
 - ```cd BigQuery-SQL-AI-Agent```
+- Install dependencies: ```pip install -r requirements.txt```
 
-pip install -r requirements.txt
+#### Set up your Google Cloud credentials
+- Place the service account in the project directory: ```os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "path/to/your/credentials.json"```
+- Configure BQ Porject and dataset
+``
+BQ_PROJECT = "your-project-id"
+BQ_DATASET = "your-dataset-name"   
+LOCATION = "your-region"  # e.g., "us-central1"
+``
+#### Other Key Configurations
+```
+llm = ChatVertexAI(
+    model_name="gemini-2.0-flash-001", 
+    temperature=0,                     
+    max_output_tokens=2048,             
+    project=BQ_PROJECT,
+    location=LOCATION
+)
+
+BQ_PROJECT = "your-project-id"         
+BQ_DATASET = "your-dataset-name"       
+LOCATION = "us-central1"
+```
+
+
